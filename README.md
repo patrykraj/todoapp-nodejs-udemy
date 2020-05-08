@@ -10,6 +10,6 @@ This project of a simple todoapp is based on a udemy course (Samuraj Programowan
 
 ### What did I change?
 
--Function --add automatically provides random id for each task
--Added feature to remove tasks based on their id
+-Function --add automatically provides random id for each task\
+-Added feature to remove tasks based on their id\
 -Remove function is implemented in a cleaner code
