@@ -41,7 +41,7 @@ const handleData = (type, title) => {
       dataJSON = JSON.stringify(updateTasks);
       fs.writeFile("datadb.json", dataJSON, "utf8", (err) => {
         if (err) throw err;
-        console.log(`${title} has been removed`.yellow);
+        console.log(`Task ${title} has been removed`.yellow);
       });
 
       break;
